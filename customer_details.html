@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <title>Basic Banking System</title>
+
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          <div style="color: white; font-size: 30px; font-family:Arial, Helvetica, sans-serif;">Golden bank</div>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">
+              <div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;"> HOME</div>
+            </a></li>
+          <li><a href="customer_details.html">
+              <div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;">VIEW CUSTOMER </div>
+            </a></li>
+          <li><a href="transactions.html">
+              <div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;">TRANSACTIONS</div>
+            </a></li>
+          <li><a href="about_us.html">
+              <div style="color: white; font-size: 20px; font-family:Arial, Helvetica, sans-serif;"> ABOUT US</div>
+            </a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+
+  <!-- --------------------------------Table--------------------------->
+
+  <div id="up" class="displayblock">
+    <table id="customers">
+
+      <tbody id="tbody1">
+
+      </tbody>
+
+    </table>
+  </div>
+
+  <div class="header">
+    <h2 style="padding-left: 7.5%;" class="main-heading">Our Customers:</h2>
+
+  </div>
+  </br>
+
+  <div class="container">
+    <div class="table-responsive">
+      <table class="table table-hover table-bordered">
+        <thead>
+          <tr style="background-color: white;">
+            <th style="color: black">Sr No</th>
+            <th style="color: black">Account No</th>
+            <th style="color: black">User Name</th>
+            <th style="color: black" class="d-sm-block d-none">Email ID</th>
+            <th style="color: black">Balance</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-light">
+            <td scope="row">1</td>
+            <td>54321</td>
+            <td>Avinash Rai</td>
+            <td>avinash@gmail.com</td>
+            <td>
+              <p id="Avinash RaiBankBalance">50000</p>
+            </td>
+
+          </tr>
+          <tr class="table-info">
+            <td scope="row">2</td>
+            <td>54322</td>
+            <td>Sumeet Choudhary</td>
+            <td>sumeet@gmail.com</td>
+            <td>
+              <p id="Sumeet ChoudharyBankBalance">65000</p>
+            </td>
+
+          </tr>
+          <tr class="table-light">
+            <td scope="row">3</td>
+            <td>54323</td>
+            <td>Sakshi Mahakalkar</td>
+            <td>sakshi@gmail.com</td>
+            <td>
+              <p id="Sakshi MahakalkarBankBalance">70000</p>
+            </td>
+
+          </tr>
+          <tr class="table-info">
+            <td scope="row">4</td>
+            <td>54324</td>
+            <td>Nikita Choudhary</td>
+            <td>nikita@gmail.com</td>
+            <td>
+              <p id="Nikita ChoudharyBankBalance">80000</p>
+            </td>
+
+          </tr>
+          <tr class="table-light">
+            <td scope="row">5</td>
+            <td>54325</td>
+            <td>Divya Sharma</td>
+            <td>divya@gmail.com</td>
+            <td>
+              <p id="Divya SharmaBankBalance">31600</p>
+            </td>
+
+          </tr>
+          <tr class="table-info">
+            <td scope="row">6</td>
+            <td>54326</td>
+            <td>Venky Shukla</td>
+            <td>venky@gmail.com</td>
+            <td>
+              <p id="Venky ShuklaBankBalance">26700</p>
+            </td>
+
+          </tr>
+          <tr class="table-light">
+            <td scope="row">7</td>
+            <td>54327</td>
+            <td>Rashmi Barnval</td>
+            <td>rashmi@gmail.com</td>
+            <td>
+              <p id="Rashmi BarnvalBankBalance">75000</p>
+            </td>
+
+          </tr>
+          <tr class="table-info">
+            <td scope="row">8</td>
+            <td>54328</td>
+            <td>Diksha Shukla</td>
+            <td>diksha@gmail.com</td>
+            <td>
+              <p id="Diksha ShuklaBankBalance">66660</p>
+            </td>
+
+          </tr>
+          <tr class="table-light">
+            <td scope="row">9</td>
+            <td>54329</td>
+            <td>Vinshika Choudhary</td>
+            <td>vinshika@gmail.com</td>
+            <td>
+              <p id="Vinshika ChoudharyBankBalance">30000</p>
+            </td>
+
+          </tr>
+          <tr class="table-info">
+            <td scope="row">10</td>
+            <td>54330</td>
+            <td>Aishwarya Rai</td>
+            <td>aishwarya@gmail.com</td>
+            <td>
+              <p id="Aishwarya RaiBankBalance">45950</p>
+            </td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ------------------------------------------footer------------------------------------------------>
+
+  <footer class="bg-dark text-center text-lg-start mt-5" style="color: blue">
+
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      © July'21 Copyright : Golden Bank<br>
+      <a class="text-light" href="https://github.com/sumeet-choudhary" target="_blank">Created By - Sumeet Choudhary</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
